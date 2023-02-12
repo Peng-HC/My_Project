@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/musicLists.png</file>
+        <file>assets/next.png</file>
+        <file>assets/openDir.png</file>
+        <file>assets/play.png</file>
+        <file>assets/previous.png</file>
+        <file>assets/volume.png</file>
+        <file>assets/musicIcon.png</file>
+        <file>assets/background.png</file>
+    </qresource>
+</RCC>
