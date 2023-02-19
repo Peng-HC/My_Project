@@ -4,7 +4,7 @@
 
 ## 一、项目部署
 
-部署环境：`Linux16.04`	`Qt 5.14.0`
+部署环境：`Linux16.04`	`Qt 5.14.0` 	`xmake 2.7.6`
 
 1. 开放本机端口`10032`
 
@@ -27,8 +27,6 @@
    bash <(wget https://xmake.io/shget.text -O -)
    ```
 
-   `xmake`版本： v2.7.6
-
    ```bash
    cd Gobang\GobangServer
    # 执行xmake
@@ -42,5 +40,3 @@
    ```
 
 4. 用Qt打开`Gobang\Gobang\Gobang.pro`，并构建、运行
-
-5. 
