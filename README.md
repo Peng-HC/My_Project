@@ -649,5 +649,57 @@ bool Chess::checkGameOver()
 
 ## 五、遇到的问题及解决方法
 
+### 5.1 错误描述
 
+> 项目运行后，棋盘像素过大导致界面超出范围。但是我设定的界面大小只有`897X895`像素大小，按理来说是不可能超出屏幕大小的。
+>
+> 相关代码：
+>
+> ```C++
+> #include <graphics.h>
+> initgraph(897,895, EX_SHOWCONSOLE);
+> //显示棋盘图片(自定义图片)
+> loadimage(NULL, _T("res/棋盘2.jpg"));
+> ```
+>
+> ![](pictures/5-项目出现的问题/像素过大导致界面超出范围.png)
 
+### 5.2 错误原因
+
+> 由于现在的屏幕分辨率都比较高，为了使屏幕字体不至于太小，通常在 Win10 的显示设置里面设为放大 125% 或 150% 或更大，这样就会导致像素实际上被放大了。
+>
+> 查看我自己电脑屏幕的显示设置可以看到设置成了150%
+>
+> ![](pictures/5-项目出现的问题/问题原因.png)
+
+### 5.3 解决方法
+
+> 1. 将电脑屏幕的显示设置->缩放与布局一栏改为100%（不推荐）
+>
+> 2. 添加一个新的 API 函数：`SetProcessDpiAwareness`，设置该进程不受系统 DPI 设置影响（推荐）
+>
+>    ```C++
+>    // 设定操作系统版本为 Win10（需要放到 #include <graphics.h> 前面）
+>    #define WINVER 0x0A00
+>    #define WIN32_WINNT 0x0A00
+>    #include <ShellScalingApi.h>		// 引用头文件
+>    #pragma comment(lib, "Shcore.lib")	// 链接库文件
+>    #include "Chess.h"
+>    #include "mmsystem.h"
+>    #pragma comment(lib,"Winmm.lib")
+>    #include <conio.h>
+>    
+>    void Chess::init() {
+>        // 设置该进程不受系统 DPI 设置影响
+>        SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE);
+>        initgraph(897,895, EX_SHOWCONSOLE);
+>        //initgraph(450,450);
+>        //显示棋盘图片(自定义图片)
+>        loadimage(NULL, _T("res/棋盘2.jpg"));
+>    }
+>    
+>    ```
+>
+>    测试效果：
+>
+>    ![](pictures/5-项目出现的问题/恢复正常.png)
