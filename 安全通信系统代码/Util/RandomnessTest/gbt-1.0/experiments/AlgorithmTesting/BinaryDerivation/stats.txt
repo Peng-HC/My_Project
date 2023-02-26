@@ -1,0 +1,80 @@
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = -137.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.175721
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = -59.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.559806
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = -105.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.299375
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = 55.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.586719
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = 107.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.290265
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = -113.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.264061
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = -69.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.495260
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = -71.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.482846
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = 23.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.820173
+
+			      BINARY DERIVATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The (n-k)th partial sum = -69.000000
+		---------------------------------------------
+SUCCESS		p_value = 0.495260
+

@@ -1,0 +1,110 @@
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7348.000000
+		(c) Psi_v               = 254.870400
+		---------------------------------------------
+SUCCESS		p_value = 0.490511
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7390.000000
+		(c) Psi_v               = 263.472000
+		---------------------------------------------
+SUCCESS		p_value = 0.344388
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7320.000000
+		(c) Psi_v               = 249.136000
+		---------------------------------------------
+SUCCESS		p_value = 0.591769
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7458.000000
+		(c) Psi_v               = 277.398400
+		---------------------------------------------
+SUCCESS		p_value = 0.160234
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7300.000000
+		(c) Psi_v               = 245.040000
+		---------------------------------------------
+SUCCESS		p_value = 0.661767
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7394.000000
+		(c) Psi_v               = 264.291200
+		---------------------------------------------
+SUCCESS		p_value = 0.331431
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7562.000000
+		(c) Psi_v               = 298.697600
+		---------------------------------------------
+SUCCESS		p_value = 0.031200
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7266.000000
+		(c) Psi_v               = 238.076800
+		---------------------------------------------
+SUCCESS		p_value = 0.769417
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7330.000000
+		(c) Psi_v               = 251.184000
+		---------------------------------------------
+SUCCESS		p_value = 0.555774
+
+			       POKER TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 8
+		(b) Sequence length (n) = 10000
+		(c) Frequency           = 7390.000000
+		(c) Psi_v               = 263.472000
+		---------------------------------------------
+SUCCESS		p_value = 0.344388
+

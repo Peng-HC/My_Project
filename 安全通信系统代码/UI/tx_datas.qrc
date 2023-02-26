@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/tx_data/tx_data2</file>
+        <file>Resources/tx_data/tx_data1</file>
+    </qresource>
+</RCC>

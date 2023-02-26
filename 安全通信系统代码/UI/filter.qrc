@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/filter/111.bin</file>
+    </qresource>
+</RCC>

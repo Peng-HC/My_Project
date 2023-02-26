@@ -1,0 +1,33 @@
+------------------------------------------------------------------------------
+RESULTS FOR THE UNIFORMITY OF P-VALUES AND THE PROPORTION OF PASSING SEQUENCES
+------------------------------------------------------------------------------
+   generator is <Quadratic-Congruential-2>
+------------------------------------------------------------------------------
+ C1  C2  C3  C4  C5  C6  C7  C8  C9 C10  P-VALUE  PROPORTION  STATISTICAL TEST
+------------------------------------------------------------------------------
+  5   2   0   1   1   1   0   0   0   0  0.008879      8/10      Frequency
+  1   0   0   1   1   1   0   2   1   3  0.534146      9/10      BlockFrequency
+  4   2   1   1   0   1   0   0   0   1  0.122325      9/10      Poker
+  3   3   0   0   1   1   0   1   1   0  0.213309     10/10      Serial
+  0   0   2   1   1   0   3   0   1   2  0.350485     10/10      Serial
+  1   1   1   2   1   1   2   1   0   0  0.911413      9/10      Runs
+  2   1   3   0   1   0   1   1   1   0  0.534146     10/10      RunsFrequency
+  1   1   0   2   0   1   1   1   2   1  0.911413     10/10      LongestRun
+  4   0   0   0   2   0   2   0   1   1  0.066882      9/10      BinaryDerivation
+  0   2   2   2   0   0   2   2   0   0  0.350485     10/10      AutoCorrelation
+  1   0   1   2   0   1   2   0   1   2  0.739918     10/10      Rank
+  4   3   0   0   1   0   2   0   0   0  0.017912      8/10      CumulativeSums
+  3   2   1   1   1   0   0   0   2   0  0.350485     10/10      ApproximateEntropy
+  1   2   3   2   0   1   0   0   0   1  0.350485     10/10      LinearComplexity
+  2   0   1   0   2   0   2   0   0   3  0.213309     10/10      Universal
+  5   0   2   0   0   0   1   2   0   0  0.004301      9/10      FFT
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The minimum pass rate for each statistical test with the exception of the
+random excursion (variant) test is approximately = 8 for a
+sample size = 10 binary sequences.
+
+For further guidelines construct a probability table using the MAPLE program
+provided in the addendum section of the documentation.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

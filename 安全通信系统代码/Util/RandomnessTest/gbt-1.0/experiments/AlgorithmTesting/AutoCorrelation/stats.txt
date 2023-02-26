@@ -1,0 +1,90 @@
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5104
+		---------------------------------------------
+SUCCESS		p_value = 0.812452
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5020
+		---------------------------------------------
+SUCCESS		p_value = 0.057682
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5063
+		---------------------------------------------
+SUCCESS		p_value = 0.294678
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5055
+		---------------------------------------------
+SUCCESS		p_value = 0.227783
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5156
+		---------------------------------------------
+SUCCESS		p_value = 0.429015
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5135
+		---------------------------------------------
+SUCCESS		p_value = 0.707164
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5138
+		---------------------------------------------
+SUCCESS		p_value = 0.663575
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5138
+		---------------------------------------------
+SUCCESS		p_value = 0.663575
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5159
+		---------------------------------------------
+SUCCESS		p_value = 0.395217
+
+			   AUTO CORRELATION TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The AutoCorrelation Move Length = 8
+		(a) The AutoCorrelation sum = 5090
+		---------------------------------------------
+SUCCESS		p_value = 0.607202
+

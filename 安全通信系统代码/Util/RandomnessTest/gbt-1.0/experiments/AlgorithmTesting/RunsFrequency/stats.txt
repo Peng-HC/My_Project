@@ -1,0 +1,100 @@
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 19.633570
+		(b) pval (P_value) = 0.142124
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.142124
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 19.494773
+		(b) pval (P_value) = 0.146892
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.146892
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 20.274884
+		(b) pval (P_value) = 0.121710
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.121710
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 25.555821
+		(b) pval (P_value) = 0.029461
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.029461
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 12.443319
+		(b) pval (P_value) = 0.570747
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.570747
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 20.937502
+		(b) pval (P_value) = 0.103245
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.103245
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 17.494573
+		(b) pval (P_value) = 0.230778
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.230778
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 13.199876
+		(b) pval (P_value) = 0.510849
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.510849
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 12.135203
+		(b) pval (P_value) = 0.595446
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.595446
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 12.125247
+		(b) pval (P_value) = 0.596245
+		(c) k (max) = 8
+		---------------------------------------------
+SUCCESS		p_value = 0.596245
+

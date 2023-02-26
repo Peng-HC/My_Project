@@ -1,0 +1,150 @@
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 23.827200
+		(d) Psi_m-1             = 7.132800
+		(e) Psi_m-2             = 2.953600
+		(f) Del_1               = 16.694400
+		(g) Del_2               = 12.515200
+		---------------------------------------------
+SUCCESS		p_value1 = 0.405634
+SUCCESS		p_value2 = 0.129655
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 26.873600
+		(d) Psi_m-1             = 16.883200
+		(e) Psi_m-2             = 9.062400
+		(f) Del_1               = 9.990400
+		(g) Del_2               = 2.169600
+		---------------------------------------------
+SUCCESS		p_value1 = 0.867129
+SUCCESS		p_value2 = 0.975366
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 78.905600
+		(d) Psi_m-1             = 49.888000
+		(e) Psi_m-2             = 25.696000
+		(f) Del_1               = 29.017600
+		(g) Del_2               = 4.825600
+		---------------------------------------------
+SUCCESS		p_value1 = 0.023818
+SUCCESS		p_value2 = 0.776043
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 20.742400
+		(d) Psi_m-1             = 9.616000
+		(e) Psi_m-2             = 4.553600
+		(f) Del_1               = 11.126400
+		(g) Del_2               = 6.064000
+		---------------------------------------------
+SUCCESS		p_value1 = 0.801617
+SUCCESS		p_value2 = 0.640063
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 20.032000
+		(d) Psi_m-1             = 7.104000
+		(e) Psi_m-2             = 1.579200
+		(f) Del_1               = 12.928000
+		(g) Del_2               = 7.403200
+		---------------------------------------------
+SUCCESS		p_value1 = 0.678015
+SUCCESS		p_value2 = 0.493819
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 48.409600
+		(d) Psi_m-1             = 26.604800
+		(e) Psi_m-2             = 14.876800
+		(f) Del_1               = 21.804800
+		(g) Del_2               = 10.076800
+		---------------------------------------------
+SUCCESS		p_value1 = 0.149607
+SUCCESS		p_value2 = 0.259677
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 47.078400
+		(d) Psi_m-1             = 20.102400
+		(e) Psi_m-2             = 2.704000
+		(f) Del_1               = 26.976000
+		(g) Del_2               = 9.577600
+		---------------------------------------------
+SUCCESS		p_value1 = 0.041751
+SUCCESS		p_value2 = 0.295932
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 29.708800
+		(d) Psi_m-1             = 14.684800
+		(e) Psi_m-2             = 6.512000
+		(f) Del_1               = 15.024000
+		(g) Del_2               = 6.851200
+		---------------------------------------------
+SUCCESS		p_value1 = 0.522881
+SUCCESS		p_value2 = 0.552769
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 16.672000
+		(d) Psi_m-1             = 7.488000
+		(e) Psi_m-2             = 4.164800
+		(f) Del_1               = 9.184000
+		(g) Del_2               = 5.860800
+		---------------------------------------------
+SUCCESS		p_value1 = 0.905643
+SUCCESS		p_value2 = 0.662821
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 5
+		(b) Sequence length (n) = 10000
+		(c) Psi_m               = 18.374400
+		(d) Psi_m-1             = 9.008000
+		(e) Psi_m-2             = 3.128000
+		(f) Del_1               = 9.366400
+		(g) Del_2               = 3.486400
+		---------------------------------------------
+SUCCESS		p_value1 = 0.897561
+SUCCESS		p_value2 = 0.900243
+

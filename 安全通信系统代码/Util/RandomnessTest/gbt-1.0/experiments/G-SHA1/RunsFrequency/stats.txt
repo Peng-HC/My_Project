@@ -1,0 +1,100 @@
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 117864.207794
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 117118.354204
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 118211.920076
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 117888.200433
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 118743.807238
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 118172.136478
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 117447.265207
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 119134.139703
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 116554.489174
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
+			  RUNS FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) V (Runs Frequency) = 118051.043283
+		(b) pval (P_value) = 0.000000
+		(c) k (max) = 15
+		---------------------------------------------
+FAILURE		p_value = 0.000000
+
