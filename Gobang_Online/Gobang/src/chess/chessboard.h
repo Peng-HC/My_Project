@@ -83,7 +83,7 @@ protected:
     const int pieceRadius = 13;
     const int EPS = 10;
 
-    QPixmap pixmap;     // including background image(or color) and chess pieces
+    QPixmap pixmap;     // 包括背景图像（或颜色）和棋子
     QLabel* imgLabel;
 
     BackgroundType bgType = BG_PURE_COLOR;

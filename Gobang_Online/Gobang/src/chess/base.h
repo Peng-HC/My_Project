@@ -12,6 +12,7 @@ enum BackgroundType {
     BG_PICTURE = 2
 };
 
+//双方交换棋子
 ChessType reverse(ChessType typeIn);
 
 
