@@ -7,7 +7,7 @@
 
 #include <cmath>
 
-
+//初始化
 ChessBoard::ChessBoard(QWidget *parent) :
         QWidget(parent)
 {
@@ -16,6 +16,7 @@ ChessBoard::ChessBoard(QWidget *parent) :
     this->setFixedSize(625, 625);
 
     pixmap = QPixmap();
+    //初始化最后一个落子为空
     lastPiece = { 0, 0, CHESS_NULL };
     init();
 }
@@ -28,9 +29,11 @@ void ChessBoard::init() {
             chessPieces[row][col] = CHESS_NULL;
         }
     }
+    //绘画棋盘
     drawChessboard();
 }
 
+// 指定棋子填充棋盘
 void ChessBoard::init(int pieces[][ROWS], ChessPieceInfo lastPieceInfo) {
     numPieces = 0;
     lastPiece = lastPieceInfo;
@@ -44,28 +47,34 @@ void ChessBoard::init(int pieces[][ROWS], ChessPieceInfo lastPieceInfo) {
     flush();
 }
 
+// 刷新棋局，重新给棋盘绘上棋子
 void ChessBoard::flush() {
     drawChessboard();
 
     for (int row = 0; row < ROWS; ++row) {
         for (int col = 0; col < ROWS; ++col) {
+            //画棋子
             drawPiece(row, col, ChessType(chessPieces[row][col]), false);
         }
     }
 
     drawPiece(lastPiece.row, lastPiece.col, lastPiece.type, true);
+    //label加载图片pixmap
     imgLabel->setPixmap(pixmap);
 }
 
+//画棋盘
 void ChessBoard::drawChessboard() {
-    // Background
+    // 背景颜色
     //   1. pure color
     //   2. picture
     fillBackground();
 
     // Draw chess board
     QPainter painter(&pixmap);
+    //设置抗锯齿能力，绘制的更为仔细，没有毛边
     painter.setRenderHint(QPainter::Antialiasing, true);
+    //设置画笔颜色
     painter.setPen(QPen(Qt::black, 1, Qt::SolidLine));
 
     int left = startX + boardWidth;
@@ -74,9 +83,9 @@ void ChessBoard::drawChessboard() {
     int bottom = top + gridWidth * (ROWS - 1);
 
     for (int i = 0; i < ROWS; ++i) {
-        // Horizontal lines
+        // 水平线
         painter.drawLine(left, top + gridWidth * i, right, top + gridWidth * i);
-        // vertical lines
+        // 竖直线
         painter.drawLine(left + gridWidth * i, top, left + gridWidth * i, bottom);
 
         // top & bottom  text (A, B, C, ... , S)
@@ -88,7 +97,7 @@ void ChessBoard::drawChessboard() {
         painter.drawText(QPoint(right + boardWidth + startX / 3, top + gridWidth * i), QString::number(1 + i));
     }
 
-    // board internal lines
+    // 棋盘内部线条
     left = startX;
     top = startY;
     right = left + boardWidth * 2 + gridWidth * (ROWS - 1);
@@ -98,11 +107,12 @@ void ChessBoard::drawChessboard() {
     painter.drawLine(left, bottom, right, bottom);
     painter.drawLine(left, top, left, bottom);
 
-    // five control points
+    // 5个控制点
     painter.setPen(QColor(Qt::black));
     painter.setBrush(QBrush(Qt::black));
     int centerX = startX + boardWidth + (ROWS / 2) * gridWidth;
     int centerY = startY + boardWidth + (ROWS / 2) * gridWidth;
+    //绘制小黑点(中心点、行列偏移4格)
     painter.drawEllipse(QPoint(centerX, centerY), 4, 4);
     painter.drawEllipse(QPoint(centerX - 4 * gridWidth, centerY - 4 * gridWidth), 4, 4);
     painter.drawEllipse(QPoint(centerX + 4 * gridWidth, centerY - 4 * gridWidth), 4, 4);
@@ -113,11 +123,12 @@ void ChessBoard::drawChessboard() {
     painter.end();
 }
 
-// Place a piece
+// 落子
 void ChessBoard::setPiece(int row, int col, ChessType type) {
     chessPieces[row][col] = type;
 
     drawPiece(lastPiece.row, lastPiece.col, lastPiece.type, false);
+    // 绘制刚落子后棋子的"准星"
     drawPiece(row, col, type, true);
 
     lastPiece = { row, col, type };
@@ -132,11 +143,14 @@ void ChessBoard::setPiece(int row, int col, ChessType type) {
     }
 }
 
+//判断落子对应的行列是否大于等于0且小于ROWS，同时该位置需为空
 bool ChessBoard::isValid(int row, int col) {
     return (row >= 0 && row < ROWS && col >= 0 && col < ROWS &&
             chessPieces[row][col] == CHESS_NULL);
 }
 
+//获得鼠标点击的坐标对应的行列
+//如果点击的位置距离左上角的格子位置小于10px,则可得到对应的行列
 bool ChessBoard::getRowCol(QPoint cursorPos, int &row, int &col) {
     int left = startX + boardWidth;
     int right = left + gridWidth * (ROWS - 1);
@@ -195,7 +209,7 @@ bool ChessBoard::getRowCol(QPoint cursorPos, int &row, int &col) {
 }
 
 
-// Background
+// 填充背景
 //   1. pure color
 //   2. picture
 void ChessBoard::fillBackground() {
@@ -208,7 +222,7 @@ void ChessBoard::fillBackground() {
         QPixmap temp(pixmap.size());
         temp.fill(Qt::transparent);
         QPainter painter(&temp);
-
+        //给图片添加一个蒙层
         painter.setCompositionMode(QPainter::CompositionMode_Source);
         painter.drawPixmap(0, 0, pixmap);
         painter.setCompositionMode(QPainter::CompositionMode_DestinationIn);
@@ -218,13 +232,13 @@ void ChessBoard::fillBackground() {
         pixmap = temp.scaled(625, 625, Qt::KeepAspectRatio, Qt::SmoothTransformation);
         imgLabel->setScaledContents(true);
     }
-
     imgLabel->setPixmap(pixmap);
 }
 
-
+//画棋子
 void ChessBoard::drawPiece(int row, int col, ChessType type, bool highlight) {
     QPainter painter(&pixmap);
+    //设置抗锯齿能力，绘制的更为仔细，没有毛边
     painter.setRenderHint(QPainter::Antialiasing, true);
     painter.setRenderHint(QPainter::TextAntialiasing, true);
 
@@ -232,6 +246,7 @@ void ChessBoard::drawPiece(int row, int col, ChessType type, bool highlight) {
         return;
     else if (type == CHESS_BLACK) {
         painter.setPen(Qt::black);
+        // 设置画刷
         painter.setBrush(Qt::black);
     }
     else {
@@ -242,10 +257,10 @@ void ChessBoard::drawPiece(int row, int col, ChessType type, bool highlight) {
     int x = startX + boardWidth + gridWidth * col;
     int y = startY + boardWidth + gridWidth * row;
 
-    // chess piece
+    // 画棋子(圆)
     painter.drawEllipse(QPoint(x, y), pieceRadius, pieceRadius);
 
-    // highlight: draw a cross-shape
+    // 绘制刚落子后棋子的"准星"
     if (highlight) {
         QPen pen;
         pen.setWidth(3);
@@ -259,16 +274,16 @@ void ChessBoard::drawPiece(int row, int col, ChessType type, bool highlight) {
         painter.drawLine(x, y + 4, x, y + 6);
         painter.drawLine(x, y - 4, x, y - 6);
     }
-
     painter.end();
     imgLabel->setPixmap(pixmap);
     numPieces++;
 }
 
+//判断棋局是否结束(出现连5的情况)
 int ChessBoard::judge(int row, int col) {
     int chessType = chessPieces[row][col];
 
-    bool ret= (judgeInRow(row, col, chessType) ||
+    bool ret = (judgeInRow(row, col, chessType) ||
                judgeInCol(row, col, chessType) ||
                judgeFromTopleftToBottomRight(row, col, chessType) ||
                judgeFromBottomleftToTopright(row, col, chessType)
@@ -282,12 +297,7 @@ int ChessBoard::judge(int row, int col) {
         return S_CONTINUE;
 }
 
-//int ChessBoard::judge() {
-//
-//    return 0;
-//}
-
-// Five in row
+//行5
 bool ChessBoard::judgeInRow(int row, int col, int chessType) {
     int count = 1;
     int l = col - 1, r = col + 1;
@@ -315,7 +325,7 @@ bool ChessBoard::judgeInRow(int row, int col, int chessType) {
     return count >= 5;
 }
 
-// Five in column
+//列5
 bool ChessBoard::judgeInCol(int row, int col, int chessType) {
     int count = 1;
     int t = row - 1, b = row + 1;
@@ -343,7 +353,7 @@ bool ChessBoard::judgeInCol(int row, int col, int chessType) {
     return count >= 5;
 }
 
-// topLeft -> bottomRight
+//左斜5(\)
 bool ChessBoard::judgeFromTopleftToBottomRight(int row, int col, int chessType) {
     int count = 1;
     int l = col - 1, r = col + 1;
@@ -379,7 +389,7 @@ bool ChessBoard::judgeFromTopleftToBottomRight(int row, int col, int chessType) 
     return count >= 5;
 }
 
-// bottomLeft -> topRight
+//右斜5(/)
 bool ChessBoard::judgeFromBottomleftToTopright(int row, int col, int chessType) {
     int count = 1;
     int l = col - 1, r = col + 1;
